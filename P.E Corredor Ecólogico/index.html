@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corredor Ecológico - Plataforma de Empleo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>Corredor Ecológico - Plataforma de Empleo</h1>
+      <p class="lead">
+        Una aplicación web diseñada para enfrentar la problemática del desempleo 
+        en el Corredor Ecológico de Villavicencio: conectando talento local con oportunidades reales.
+      </p>
+
+      <nav>
+        <a href="#registro">Registro</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#publicar">Publicar Empleo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="registro" class="card">
+      <h2>Registro de Usuario</h2>
+      <form id="formRegistro">
+        <label>Nombre completo
+          <input type="text" id="nombre" required>
+        </label>
+
+        <label>Correo electrónico
+          <input type="email" id="correo" required>
+        </label>
+
+        <label>Teléfono
+          <input type="text" id="telefono">
+        </label>
+
+        <label>¿Buscas empleo o publicas ofertas?
+          <select id="rol">
+            <option value="buscador">Buscador de empleo</option>
+            <option value="empresa">Empresa / Empleador</option>
+          </select>
+        </label>
+
+        <button type="submit">Crear cuenta</button>
+      </form>
+      <div id="mensajeRegistro" class="msg"></div>
+    </section>
+
+    <section id="ofertas" class="card">
+      <h2>Ofertas Laborales</h2>
+      <div id="listaOfertas">
+        <!-- Las ofertas se cargarán dinámicamente con Js -->
+      </div>
+    </section>
+
+    <section id="publicar" class="card">
+      <h2>Publicar una Oferta</h2>
+      <form id="formOferta">
+        <label>Título del empleo
+          <input type="text" id="tituloOferta" required>
+        </label>
+
+        <label>Descripción
+          <textarea id="descOferta" rows="4"></textarea>
+        </label>
+
+        <label>Ubicación
+          <input type="text" id="ubicacionOferta" value="Corredor Ecológico">
+        </label>
+
+        <label>Salario aproximado
+          <input type="text" id="salarioOferta">
+        </label>
+
+        <button type="submit">Publicar</button>
+      </form>
+      <div id="mensajeOferta" class="msg"></div>
+    </section>
+
+    <!-- Explicación del impacto -->
+    <section id="info" class="card">
+      <h2>Cómo ayuda esta plataforma</h2>
+      <p>
+        Esta aplicación busca conectar a los habitantes del Corredor Ecológico 
+        con oportunidades laborales cercanas, impulsando el empleo local y 
+        promoviendo el desarrollo económico sostenible. En el informe final se 
+        detallará cómo responde directamente a la problemática del desempleo 
+        identificada en la zona.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Proyecto académico UNIMINUTO — Plataforma de Empleo del Corredor Ecológico de Villavicencio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

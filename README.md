@@ -2,7 +2,7 @@
 
 ## Descripción
 
-La **Plataforma de Empleo del Corredor Ecológico** es una aplicación web (en fase beta) diseñada para **apoyar a los habitantes del Corredor Ecológico en Villavicencio - Meta**, brindándoles un espacio donde puedan registrarse, consultar oportunidades laborales, postularse a ofertas y gestionar empleos de manera sencilla y segura.  
+La **Plataforma de Empleo del Corredor Ecológico** es una aplicación web (aún en fase beta), diseñada para **apoyar a los habitantes del Corredor Ecológico en Villavicencio - Meta**, brindándoles un espacio donde puedan registrarse, consultar oportunidades laborales, postularse a ofertas y gestionar empleos de manera sencilla y segura.  
 
 Este proyecto **académico**, surge como respuesta a la problemática de **desempleo en el sector**, ofreciendo una herramienta digital que conecta candidatos con empleadores.
 

@@ -2,9 +2,9 @@
 
 ## Descripción
 
-La **Plataforma de Empleo del Corredor Ecológico** es una aplicación web diseñada para **apoyar a los habitantes del Corredor Ecológico en Villavicencio - Meta**, brindándoles un espacio donde puedan registrarse, consultar oportunidades laborales, postularse a ofertas y gestionar empleos de manera sencilla y segura.  
+La **Plataforma de Empleo del Corredor Ecológico** es una aplicación web (en fase beta) diseñada para **apoyar a los habitantes del Corredor Ecológico en Villavicencio - Meta**, brindándoles un espacio donde puedan registrarse, consultar oportunidades laborales, postularse a ofertas y gestionar empleos de manera sencilla y segura.  
 
-El proyecto surge como respuesta a la problemática de **desempleo en el sector**, ofreciendo una herramienta digital que conecta candidatos con empleadores.
+Este proyecto **académico**, surge como respuesta a la problemática de **desempleo en el sector**, ofreciendo una herramienta digital que conecta candidatos con empleadores.
 
 ---
 
@@ -12,7 +12,7 @@ El proyecto surge como respuesta a la problemática de **desempleo en el sector*
 
 ### Frontend
 - **HTML5** y **CSS3**: para la estructura y estilo de la interfaz.  
-- **JavaScript (vanilla)**: manejo de la interacción, envío de datos y consumo de API con `fetch()`.  
+- **JavaScript**: manejo de la interacción, envío de datos y consumo de API con `fetch()`.  
 - **Diseño responsivo y minimalista**, con color verde característico del Corredor Ecológico.  
 
 ### Backend
@@ -21,7 +21,7 @@ El proyecto surge como respuesta a la problemática de **desempleo en el sector*
 - **Middleware de autenticación** para proteger rutas sensibles.  
 
 ### Base de datos
-- **MySQL**: almacenamiento de usuarios, ofertas y postulaciones.  
+- **MySQL (con conexión a través de mysql2)**: almacenamiento de usuarios, ofertas y postulaciones.  
 - **Relaciones entre tablas**:  
   - `usuarios` (candidatos, empleadores y admin)  
   - `ofertas` (ofertas de empleo vinculadas a empleadores)  

@@ -1,0 +1,54 @@
+# Node dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*            # .env.local, .env.test, etc.
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Builds / output
+/dist
+/build
+/out
+/.next
+/public/build
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+nyc_output/
+
+# OS temp
+*.tmp
+*.swp
+
+# Base de datos local o binarios
+*.sqlite
+*.sqlite3
+*.db
+*.sql  # si no quieres subir dumps; comentar si sí los vas a versionar
+
+# Keys / certificados
+*.pem
+*.key
+*.crt
+
+# Otros
+.env.backup
+*.env.backup
+*.tgz
